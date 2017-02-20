@@ -1,0 +1,65 @@
+body {
+  margin: 0 auto;
+  background: black;
+  overflow: hidden;
+}
+
+div#content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 22.6vh;
+  position: fixed;
+  z-index: 0;
+}
+
+/*.first {
+  width: 800px;
+  height: 500px;
+  background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpg);
+  position: fixed;
+  transition: all 1s ease;
+}
+
+
+.second {
+  width: 800px;
+  height: 500px;
+  background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpghttps://pp.vk.me/c837632/v837632694/21043/TxYApxLBFHU.jpg);
+  position: fixed;
+  transition: all .30s ease-out 0.5s;
+}*/
+
+
+
+a {
+  position:fixed;
+  background-size: cover;
+}
+
+
+figure {
+  width: 30vh;
+  height: 30vh;
+}
+
+
+.a {top: 10vh; left: 50vh;}
+.b {top: 30vh; left: 10vh;}
+.c {top: 6vh; left: 20vh;}
+.d {top: 45vh; left: 78vh;}
+.e {top: 72vh; left: 36vh;}
+.g {top: 89vh; left: 90vh;}
+.h {top: 63vh; left: 18vh;}
+.i {top: 54vh; left: 44vh;}
+.j {top: 93vh; left: 66vh;}
+.k {top: 20vh; left: 21vh;}
+.m {top: 32vh; left: 85vh;}
+.n {top: 84vh; left: 30vh;}
+.o {top: 98vh; left: 74vh;}
+.p {top: 55vh; left: 58vh;}
+.q {top: 28vh; left: 8vh;}
