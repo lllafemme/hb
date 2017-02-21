@@ -25,17 +25,11 @@ body {
 
 .short-animate {
   -webkit-transition:.5s ease-in-out;
-  -moz-transition:.5s ease-in-out;
-  -ms-transition:.5s ease-in-out;
-  -o-transition:.5s ease-in-out;
   transition:.5s ease-in-out;
 }
 
 .long-animate {
   -webkit-transition: .5s .5s ease-in-out;
-  -moz-transition: .5s .5s ease-in-out;
-  -ms-transition: .5s .5s ease-in-out;
-  -o-transition:.5s .5s ease-in-out;
   transition:.5s .5s ease-in-out;
 }
 
@@ -82,9 +76,6 @@ body {
   right:10px;
   top:10px;
   -webkit-transform:rotate(45deg);
-  -moz-transform:rotate(45deg);
-  -ms-transform:rotate(45deg);
-  -o-transform:rotate(45deg);
   transform:rotate(45deg);
 }
 
@@ -99,9 +90,6 @@ body {
   background:white;
   border-radius:2px;
   -webkit-transition: .5s .5s ease-in-out;
-  -moz-transition: .5s .5s ease-in-out;
-  -ms-transition: .5s .5s ease-in-out;
-  -o-transition:.5s .5s ease-in-out;
   transition:.5s .5s ease-in-out;
 }
 
@@ -116,9 +104,6 @@ body {
   background:white;
   border-radius:2px;
   -webkit-transition: .5s 1s ease-in-out;
-  -moz-transition: .5s 1s ease-in-out;
-  -ms-transition: .5s 1s ease-in-out;
-  -o-transition:.5s 1s ease-in-out;
   transition:.5s 1s ease-in-out;
 }
 
