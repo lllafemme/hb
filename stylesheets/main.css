@@ -10,9 +10,10 @@ div#content {
   width: 100%;
 }
 
-h1 {
+a.contacts {
+  font-family: 'Roboto Mono', monospace;
   color: white;
-  font-size: 22.6vh;
+  font-size: 12.8vw;
   position: fixed;
   z-index: 0;
 }
@@ -36,9 +37,10 @@ h1 {
 
 
 
-a {
+a.ph {
   position:fixed;
   background-size: cover;
+  filter: grayscale(100%);
 }
 
 
@@ -49,17 +51,61 @@ figure {
 
 
 .a {top: 10vh; left: 50vh;}
-.b {top: 30vh; left: 10vh;}
+.b {top: 30vh; left: 150vh;}
 .c {top: 6vh; left: 20vh;}
 .d {top: 45vh; left: 78vh;}
 .e {top: 72vh; left: 36vh;}
+.f {top: 135vh; left: 6vh;}
 .g {top: 89vh; left: 90vh;}
 .h {top: 63vh; left: 18vh;}
-.i {top: 54vh; left: 44vh;}
+.i {top: 54vh; left: 120vh;}
 .j {top: 93vh; left: 66vh;}
 .k {top: 20vh; left: 21vh;}
+.k {top: 200vh; left: 19vh;}
 .m {top: 32vh; left: 85vh;}
-.n {top: 84vh; left: 30vh;}
+.n {top: 84vh; left: 190vh;}
 .o {top: 98vh; left: 74vh;}
 .p {top: 55vh; left: 58vh;}
-.q {top: 28vh; left: 8vh;}
+.q {top: 28vh; left: 100vh;}
+
+section.contacts {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  top: 10vh;
+}
+
+a.cont {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 2vw;
+  margin: 1vw;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 6vw;
+  margin: 10px;
+}
+
+section.madeby {
+  position: fixed;
+  top: 97vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2, a.madeby {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 0.5vw;
+
+}
