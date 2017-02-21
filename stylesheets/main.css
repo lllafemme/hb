@@ -16,6 +16,7 @@ a.contacts {
   font-size: 12.8vw;
   position: fixed;
   z-index: 0;
+  font-weight: 700;
 }
 
 /*.first {
@@ -40,13 +41,14 @@ a.contacts {
 a.ph {
   position:fixed;
   background-size: cover;
-  filter: grayscale(100%);
+
 }
 
 
 figure {
   width: 30vh;
   height: 30vh;
+  filter: grayscale(100%);
 }
 
 
