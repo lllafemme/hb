@@ -16,6 +16,7 @@ a.contacts {
   font-size: 12.8vw;
   position: fixed;
   z-index: 0;
+  font-weight: 700;
 }
 
 /*.first {
